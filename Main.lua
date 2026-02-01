@@ -17,14 +17,3 @@ wait(1)
 spawn(function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fc2058edca65e342a7a1a79b0b7eb127.lua"))()
 end)
-local lastNotificationTime = 0
-local notificationCooldown = 5
-local currentTime = tick()
-if currentTime - lastNotificationTime >= notificationCooldown then
-    game.StarterGui:SetCore("SendNotification", {
-        Title = "Gravity Hub",
-        Text = "Loading...",
-        Duration = 5
-    })
-    lastNotificationTime = currentTime
-end
