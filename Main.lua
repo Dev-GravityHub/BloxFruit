@@ -15,5 +15,5 @@ loadstring(game:HttpGet("https://luacrack.site/index.php/concacmaydaitoinach/raw
 end)
 wait(1)
 spawn(function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fc2058edca65e342a7a1a79b0b7eb127.lua"))()
+    loadstring(game:HttpGet("https://luacrack.site/index.php/TBoyRoblox/raw/GravityHub-BloxFruit"))()
 end)
